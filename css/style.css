@@ -96,6 +96,7 @@ img {
     /* text-align: center; */
     color: var(--blanco);
     margin-top: 5rem;
+<<<<<<< HEAD
     text-align: center;
 }
 
@@ -167,13 +168,89 @@ img {
     color: var(--blanco);
     font-family: var(--fuenteHeading);
     text-align: center;
+=======
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    .header__texto{
+        margin-top: 15rem;
+    }
+}
+
+.barra{
+    padding-top: 4rem;
+}
+
+@media(min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+
+.logo {
+    color: var(--blanco);
+}
+
+.logo__nombre {
+    font-weight: 400;
+}
+
+.logo__bold {
+    font-weight: 700;
+}
+
+@media(min-width: 768px){
+    .navegacion{
+        display: flex;
+    }
+}
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+    margin-right: 2rem;
+}
+
+@media(min-width: 768px){
+    .contenido-principal{
+        display: grid;
+        grid-template-columns:2fr 1fr ;
+        column-gap: 4rem;
+    }
+}
+
+.entrada{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+
+.boton{
+    display: block;
+    color: var(--blanco);
+    font-family: var(--fuenteHeading);
+    text-align: center;
+>>>>>>> ba7065e68c15cf56ee128515a0febefa28234c03
     padding: 1rem 3rem;
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
     border-radius: 0.3rem;
+<<<<<<< HEAD
     border: none;
+=======
+>>>>>>> ba7065e68c15cf56ee128515a0febefa28234c03
 }
 
 @media(min-width: 768px){
@@ -182,10 +259,13 @@ img {
     }
 }
 
+<<<<<<< HEAD
 .boton:hover{
     cursor: pointer;
 }
 
+=======
+>>>>>>> ba7065e68c15cf56ee128515a0febefa28234c03
 .boton--primario{
     background-color: var(--negro);
 }
@@ -283,6 +363,7 @@ img {
     font-weight: 400;
     font-size: 2rem;
 }
+<<<<<<< HEAD
 
 /* contacto */
 
@@ -321,3 +402,5 @@ img {
 .campo__field--textarea{
     height: 20rem;
 }
+=======
+>>>>>>> ba7065e68c15cf56ee128515a0febefa28234c03
